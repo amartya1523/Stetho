@@ -1,0 +1,27 @@
+training clips: 216 simulated + 800 real MIMII fan  (6s)
+  epoch   0 loss 0.1497
+  epoch  10 loss 0.0980
+  epoch  20 loss 0.0953
+  epoch  30 loss 0.0942
+  epoch  39 loss 0.0938
+  false alarm: {'machine': 11, 'health': 63.2, 'health_ae': 63.2, 'z': 5.13, 'label': 'anomaly', 'phys_max': 0.0}
+  false alarm: {'machine': 11, 'health': 46.2, 'health_ae': 46.2, 'z': 6.25, 'label': 'anomaly', 'phys_max': 0.2602473071298649}
+
+pipeline accuracy (6 classes) 0.861  detection 0.867  false alarms 0.042
+ablation {'ae_only_auc': 0.746, 'physics_only_auc': 0.986, 'fused_auc': 0.98}
+confusion (rows=truth, cols=pred): ['healthy', 'imbalance', 'misalignment', 'looseness', 'bearing', 'airflow', 'anomaly']
+  healthy      [46  0  0  0  0  0  2]
+  imbalance    [ 1 46  0  0  0  0  1]
+  misalignment [ 0  0 47  1  0  0  0]
+  looseness    [11  0  0 37  0  0  0]
+  bearing      [12  0  0  0 36  0  0]
+  blocked      [ 8  0  0  0  0 36  4]
+severity sweep {'imbalance': [0.0, 0.0, 0.125, 1.0, 1.0, 1.0, 1.0], 'misalignment': [0.0, 0.0, 0.5, 1.0, 1.0, 0.875, 1.0], 'looseness': [0.0, 0.0, 0.0, 0.0, 0.5, 0.875, 1.0], 'bearing': [0.0, 0.0, 0.0, 0.125, 0.375, 0.625, 1.0], 'blocked': [0.125, 0.125, 0.0, 0.25, 0.125, 0.875, 1.0]}
+  SNR 30 dB  acc 0.96  false alarms 0.00
+  SNR 20 dB  acc 0.88  false alarms 0.00
+  SNR 10 dB  acc 0.92  false alarms 0.00
+  SNR  5 dB  acc 0.75  false alarms 0.38
+  SNR  0 dB  acc 0.44  false alarms 0.75
+timeline [98.2, 97.5, 97.3, 97.7, 97.6, 97.1, 97.9, 87.9, 68.0, 47.2, 34.9, 30.0, 30.0, 30.0, 30.0]
+exported stetho_ae.onnx (1067 KB), onnxruntime parity OK
+done in 832s

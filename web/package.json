@@ -1,0 +1,27 @@
+{
+  "name": "stetho",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A stethoscope for machines: on-device acoustic fault detection.",
+  "author": "Amartya Vikram Singh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "idb": "8.0.4",
+    "onnxruntime-web": "1.31.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.5",
+    "vite-plugin-pwa": "2.0.0"
+  }
+}

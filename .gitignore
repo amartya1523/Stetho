@@ -1,0 +1,13 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+ml/data/
+results/*.pt
+# web
+web/node_modules/
+web/dist/
+web/dev-dist/
+tools/.frames/
+.DS_Store
+.vercel

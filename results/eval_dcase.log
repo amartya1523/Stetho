@@ -1,0 +1,43 @@
+fan    id00 replica  AUC  55.9±0.4  pAUC  49.4  (122s)
+fan    id00 stetho   AUC  56.2±0.6  pAUC  49.9  (106s)
+fan    id02 replica  AUC  70.2±0.7  pAUC  57.7  (109s)
+fan    id02 stetho   AUC  76.7±1.2  pAUC  59.5  (95s)
+fan    id04 replica  AUC  49.6±0.2  pAUC  48.5  (102s)
+fan    id04 stetho   AUC  53.4±0.7  pAUC  49.4  (76s)
+fan    id06 replica  AUC  74.0±1.6  pAUC  60.4  (99s)
+fan    id06 stetho   AUC  81.1±1.1  pAUC  60.2  (82s)
+pump   id00 replica  AUC  68.8±0.1  pAUC  57.1  (67s)
+pump   id00 stetho   AUC  72.0±0.6  pAUC  62.2  (67s)
+pump   id02 replica  AUC  58.7±0.2  pAUC  54.2  (88s)
+pump   id02 stetho   AUC  55.3±1.3  pAUC  54.4  (99s)
+pump   id04 replica  AUC  92.9±0.3  pAUC  74.6  (75s)
+pump   id04 stetho   AUC  93.5±0.1  pAUC  74.5  (77s)
+pump   id06 replica  AUC  65.5±2.6  pAUC  54.8  (75s)
+pump   id06 stetho   AUC  66.9±0.9  pAUC  58.4  (68s)
+slider id00 replica  AUC  88.5±0.7  pAUC  63.8  (70s)
+slider id00 stetho   AUC  95.9±1.9  pAUC  80.6  (68s)
+slider id02 replica  AUC  75.7±0.8  pAUC  52.2  (65s)
+slider id02 stetho   AUC  76.2±0.5  pAUC  59.4  (64s)
+
+Machine   official AUC/pAUC   replica AUC/pAUC   stetho AUC/pAUC
+fan        65.8 /  52.4      62.5 /  54.0      66.8 /  54.8  
+pump       72.9 /  61.0      71.5 /  60.2      71.9 /  62.4  
+slider     87.6 /  72.6      82.1 /  58.0      86.1 /  70.0  
+slider id04 replica  AUC  70.5±0.0  pAUC  55.3  (56s)
+slider id04 stetho   AUC  94.4±0.1  pAUC  73.0  (56s)
+slider id06 replica  AUC  53.3±0.2  pAUC  49.3  (77s)
+slider id06 stetho   AUC  78.9±0.3  pAUC  50.4  (70s)
+valve  id00 replica  AUC  46.7±0.5  pAUC  50.2  (76s)
+valve  id00 stetho   AUC  77.0±0.9  pAUC  52.0  (62s)
+valve  id02 replica  AUC  57.3±0.4  pAUC  49.3  (65s)
+valve  id02 stetho   AUC  75.9±0.9  pAUC  52.2  (66s)
+valve  id04 replica  AUC  52.7±1.1  pAUC  50.9  (65s)
+valve  id04 stetho   AUC  86.1±0.4  pAUC  55.6  (64s)
+valve  id06 replica  AUC  44.9±0.0  pAUC  48.8  (65s)
+valve  id06 stetho   AUC  64.7±0.9  pAUC  49.2  (64s)
+
+Machine   official AUC/pAUC   replica AUC/pAUC   stetho AUC/pAUC
+fan        65.8 /  52.4      62.5 /  54.0      66.8 /  54.8  
+pump       72.9 /  61.0      71.5 /  60.2      71.9 /  62.4  
+slider     84.8 /  66.6      72.0 /  55.2      86.4 /  65.9  
+valve      66.3 /  53.3      50.4 /  49.8      75.9 /  52.2  
